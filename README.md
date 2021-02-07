@@ -2,6 +2,6 @@
 
 Overview of files:
 
-- Code used for MD simulations of ligand-binding interactions in NAMD: [ligand_binding_simulation.namd](ligand_binding_simulation.namd)
+- Configuration settings used for MD simulations of ligand-binding interactions in NAMD: [ligand_binding_simulation.namd](ligand_binding_simulation.namd)
 
 
