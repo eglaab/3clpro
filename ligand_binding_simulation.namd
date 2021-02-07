@@ -1,0 +1,92 @@
+# ----------input-----
+
+coordinates             protein_ligand_complex_solvate.pdb
+structure               protein_ligand_complex_solvate.psf
+parameters              par_all36_prot.prm
+parameters              par_all36_carb.prm
+parameters              par_all36_cgenff.prm
+parameters              par_all36_lipid.prm
+parameters              par_interface.prm
+parameters              par_all36_na.prm
+parameters              toppar_water_ions.mod.str
+parameters              ligand.par
+paratypecharmm          on
+
+# ----------output------
+
+set output              protein_ligand_complex_output
+
+outputname              $output
+dcdfile                 ${output}.dcd
+xstFile                 ${output}.xst
+dcdfreq                 500
+xstFreq                 50
+binaryoutput            yes
+binaryrestart           yes
+outputEnergies          50
+restartfreq             50
+
+
+# ---------Basic dynamics-------
+exclude                 scaled1-4
+1-4scaling              1
+COMmotion               no
+dielectric              1.0
+
+# --------Simulation space partitioning----
+switching               on
+switchdist              9
+cutoff                  10
+pairlistdist            11
+
+# --------Multiple time stepping----
+firsttimestep           0
+timestep                2
+stepspercycle   1
+
+# -------Temperature control----
+set temperature         310
+temperature             $temperature;  
+
+# -------Langevin Dynamics------
+langevin                on;            
+langevinDamping         1;              
+langevinTemp            $temperature;   
+
+# ===============================================
+
+# Grid size is adjusted for each protein-ligand complex
+PME on
+PMEGridSizeX 48
+PMEGridSizeY 74
+PMEGridSizeZ 73
+
+useGroupPressure yes
+
+
+LangevinPiston   on
+LangevinPistonTarget 1.02
+LangevinPistonPeriod 150
+LangevinPistonDecay  90
+LangevinPistonTemp  $temperature
+
+
+# ===============================================
+
+# Parameters are adjusted for each protein-ligand complex in accordance with the grid size parameters
+# Periodic Boundary conditions
+cellBasisVector1 48.29 0 0 
+cellBasisVector2 0 74.368 0 
+cellBasisVector3 0 0 72.89699999999999 
+cellOrigin 12.388000000000002 0.43700000000000117 6.484500000000001
+
+wrapWater           on              ;
+wrapAll             on              ;
+wrapNearest         off
+
+# ---------Scripting
+minimize            100          ;
+reinitvels          $temperature  ;
+run 10000000; # 20ns simulation
+
+# END
