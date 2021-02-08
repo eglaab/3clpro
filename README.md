@@ -7,4 +7,6 @@ Overview of files:
 
 - Merged pharmacophore model in the “Compressed Pharmaceutical Markup Language” (PMZ) format: [3clpro_pharmacophore_ligandscout.pmz](3clpro_pharmacophore_ligandscout.pmz)
 
+- Molecular dynamics simulation of SARS-CoV-2 3CLpro protein in complex with small molecule compound M-9420: [https://youtu.be/XgBIvR_TQ-s](Video animation)
+
 
