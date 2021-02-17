@@ -10,6 +10,10 @@ Overview of files:
 - Merged pharmacophore model in the “Compressed Pharmaceutical Markup Language” (PMZ) format:
 
   [3clpro_pharmacophore_ligandscout.pmz](3clpro_pharmacophore_ligandscout.pmz)
+  
+- Molecular dynamics simulation of SARS-CoV-2 3CLpro protein in complex with natural compound rottlerin:
+
+  [Video animation](https://youtu.be/uFNJhlSwbNo)
 
 - Molecular dynamics simulation of SARS-CoV-2 3CLpro protein in complex with natural compound amentoflavone:
 
