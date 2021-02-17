@@ -1,4 +1,4 @@
-# Accompanying code and data for the manuscript "A pharmacophore model for SARS-CoV-2 3CLpro small molecule inhibitors and experimental validation of computationally screened inhibitors"
+# Accompanying files for the manuscript "A pharmacophore model for SARS-CoV-2 3CLpro small molecule inhibitors and experimental validation of computationally screened inhibitors"
 
 
 Overview of files:
