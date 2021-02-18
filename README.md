@@ -7,9 +7,9 @@ Overview of files:
 
   [ligand_binding_simulation.namd](ligand_binding_simulation.namd)
 
-- Merged pharmacophore model in the “Compressed Pharmaceutical Markup Language” (PMZ) format:
+- Merged pharmacophore model in the “Pharmaceutical Markup Language” (PML) format:
 
-  [3clpro_pharmacophore_ligandscout.pmz](3clpro_pharmacophore_ligandscout.pmz)
+  [3clpro_pharmacophore_ligandscout.pml](3clpro_pharmacophore_ligandscout.pml)
   
 - Molecular dynamics simulation of SARS-CoV-2 3CLpro protein in complex with small molecule compound M-1805:
 
