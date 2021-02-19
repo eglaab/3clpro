@@ -14,6 +14,10 @@ Overview of files:
 - Molecular dynamics simulation of SARS-CoV-2 3CLpro protein in complex with small molecule compound M-1805:
 
   [Video animation](https://youtu.be/Jj5nmU-U6IU)
+  
+- Molecular dynamics simulation of SARS-CoV-2 3CLpro protein in complex with natural compound luteolin:
+
+  [Video animation](https://youtu.be/RrpM8l70euc)  
 
 - Molecular dynamics simulation of SARS-CoV-2 3CLpro protein in complex with natural compound rottlerin:
 
