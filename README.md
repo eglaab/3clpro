@@ -7,7 +7,7 @@ Accompanying files for the manuscript "A pharmacophore model for SARS-CoV-2 3CLp
 ## Overview of files
 
 <br>
-Downloadable files:
+Settings and pharmacophore files:
 
 - Configuration settings used for MD simulations of ligand-binding interactions in NAMD:
 
