@@ -85,6 +85,7 @@ wrapAll             on              ;
 wrapNearest         off
 
 # ---------Scripting
+seed                1            ;
 minimize            100          ;
 reinitvels          $temperature  ;
 run 10000000; # 20ns simulation
