@@ -3,9 +3,10 @@
 Accompanying files for the manuscript "A pharmacophore model for SARS-CoV-2 3CLpro small molecule inhibitors and experimental validation of computationally screened inhibitors
 
 
+<br>
+## Overview of files
 
-# Overview of files
-
+<br>
 Downloadable files:
 
 - Configuration settings used for MD simulations of ligand-binding interactions in NAMD:
@@ -16,8 +17,7 @@ Downloadable files:
 
   [3clpro_pharmacophore_ligandscout.pmz](3clpro_pharmacophore_ligandscout.pmz)
 
-
-  
+<br>  
 Molecular dynamics simulations:  
   
 - SARS-CoV-2 3CLpro protein in complex with small molecule compound <b>M-8524</b>:
