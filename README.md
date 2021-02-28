@@ -1,9 +1,8 @@
 # SARS-CoV-2 3CLpro screening and pharmacophore generation
 
 Accompanying files for the manuscript "A pharmacophore model for SARS-CoV-2 3CLpro small molecule inhibitors and experimental validation of computationally screened inhibitors
-
-
 <br>
+
 ## Overview of files
 
 <br>
