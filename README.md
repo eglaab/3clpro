@@ -28,6 +28,13 @@ Molecular dynamics simulations:
 
   [Video animation](https://youtu.be/Jj5nmU-U6IU)
 
+- SARS-CoV-2 3CLpro protein in complex with natural compound <b>baicalein</b>:
+
+  [Video animation](https://youtu.be/SiPqjSoYu6k)
+
+- SARS-CoV-2 3CLpro protein in complex with natural compound <b>luteolin</b>:
+
+  [Video animation](https://youtu.be/RrpM8l70euc)
 - SARS-CoV-2 3CLpro protein in complex with natural compound <b>rottlerin</b>:
 
   [Video animation](https://youtu.be/aoVfy5d7388)
@@ -36,13 +43,7 @@ Molecular dynamics simulations:
 
   [Video animation](https://youtu.be/5iWZRTRgG0Y)  
 
-- SARS-CoV-2 3CLpro protein in complex with natural compound <b>baicalein</b>:
 
-  [Video animation](https://youtu.be/SiPqjSoYu6k)
-
-- SARS-CoV-2 3CLpro protein in complex with natural compound <b>luteolin</b>:
-
-  [Video animation](https://youtu.be/RrpM8l70euc)
 
 
 
