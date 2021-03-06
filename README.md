@@ -38,7 +38,7 @@ Molecular dynamics simulations:
 
 - SARS-CoV-2 3CLpro protein in complex with natural compound <b>rottlerin</b>:
 
-  [Video animation](https://youtu.be/uFNJhlSwbNo)
+  [Video animation](https://youtu.be/aoVfy5d7388)
 
 - SARS-CoV-2 3CLpro protein in complex with natural compound <b>amentoflavone</b>:
 
