@@ -1,21 +1,10 @@
 # SARS-CoV-2 3CLpro screening and pharmacophore generation
 
 <br>
-Accompanying files for the manuscript "A pharmacophore model for SARS-CoV-2 3CLpro small molecule inhibitors and experimental validation of computationally screened inhibitors"
+Accompanying scripts, parameter setting files, animations and pharmacophore files for the manuscript "A pharmacophore model for SARS-CoV-2 3CLpro small molecule inhibitors and experimental validation of computationally screened inhibitors"
 <br>
 
 ## Overview of files
-
-<br>
-Settings and pharmacophore files:
-
-- Configuration settings used for MD simulations of ligand-binding interactions in NAMD:
-
-  [ligand_binding_simulation.namd](ligand_binding_simulation.namd)
-
-- Merged pharmacophore model in the “Compressed Pharmaceutical Markup Language” (PMZ) format:
-
-  [3clpro_pharmacophore_ligandscout.pmz](3clpro_pharmacophore_ligandscout.pmz)
 
 <br>
 Molecular docking scripts:
@@ -48,7 +37,11 @@ Machine learning based compound scoring analysis:
   [ml_screening.R](ml_screening.R)
 
 <br>  
-Molecular dynamics simulations:  
+Molecular dynamics simulations:
+
+- Configuration settings used for MD simulations of ligand-binding interactions in NAMD:
+
+  [ligand_binding_simulation.namd](ligand_binding_simulation.namd)
   
 - SARS-CoV-2 3CLpro protein in complex with small molecule compound <b>M-8524</b>:
 
@@ -72,6 +65,13 @@ Molecular dynamics simulations:
 - SARS-CoV-2 3CLpro protein in complex with natural compound <b>amentoflavone</b>:
 
   [Video animation](https://youtu.be/5iWZRTRgG0Y)  
+
+<br>
+Pharmacophore model:
+
+- Merged pharmacophore model in the “Compressed Pharmaceutical Markup Language” (PMZ) format:
+
+  [3clpro_pharmacophore_ligandscout.pmz](3clpro_pharmacophore_ligandscout.pmz)
 
 
 
