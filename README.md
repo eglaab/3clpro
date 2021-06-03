@@ -41,7 +41,7 @@ Molecular docking scripts:
   [openeye_hybrid_docking.sh](openeye_hybrid_docking.sh) 
 
 <br>
-Machine learning based analysis:
+Machine learning based compound scoring analysis:
 
 - Script for machine learning based compound screening using quantitative descriptors extracted from compound SMILES:
 
