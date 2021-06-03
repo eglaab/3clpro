@@ -17,7 +17,7 @@ Molecular docking scripts:
 
   [extractHydeScores.py](extractHydeScores.py)
 
-- Script for the automation of molecular docking runs using the LeadIT software (iterating over all compound files in working directory):
+- Script for the automation of molecular docking runs using the LeadIT software (iterating over all compound files in the working directory):
 
   [docking_leadit_script.sh](docking_leadit_script.sh)
   
