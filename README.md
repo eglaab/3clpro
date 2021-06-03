@@ -39,6 +39,10 @@ Scripts for molecular docking, binding affinity estimation, and ligand-based sim
 - Script for ligand preparation and molecular docking using the software AutoDock-GPU:
 
   [autodock_screening.R](autodock_screening.R)
+  
+- Script for ligand-based similarity screening using the FTrees software:
+
+  [ftrees_screening.R](ftrees_screening.R)
 
 
 <br>
