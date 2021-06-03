@@ -28,7 +28,7 @@ Molecular docking scripts:
 
   [dock_and_score.sh](dock_and_score.sh)
   
-- Script to extract binding affinity stimation scores from HYDE output files:
+- Script to extract binding affinity estimation scores from HYDE output files:
 
   [extractHydeScores.py](extractHydeScores.py)
 
