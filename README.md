@@ -18,7 +18,7 @@ Settings and pharmacophore files:
   [3clpro_pharmacophore_ligandscout.pmz](3clpro_pharmacophore_ligandscout.pmz)
 
 <br>
-Molecular docking script:
+Molecular docking scripts:
 
 - Script for molecular docking using LeadIT (FlexX):
 
