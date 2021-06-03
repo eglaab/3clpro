@@ -14,7 +14,7 @@ Software tools:
   [used_software_tools_and_versions.txt](used_software_tools_and_versions.txt)
 
 <br>
-Molecular docking scripts:
+Scripts for molecular docking, binding affinity estimation, and ligand-based similarity screening:
 
 - Script for molecular docking and binding affinity estimation using the software LeadIT FlexX/HYDE for individual compounds:
 
