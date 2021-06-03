@@ -1,5 +1,5 @@
 #
-# Apply molecular docking using the AutoDock-GPU software for all compounds in the current directory
+# Apply ligand preparation and molecular docking using the AutoDock-GPU software for all compounds in the current directory
 #
 
 # Define input and output directories
@@ -10,11 +10,30 @@ input_folder = "/protein_folder"
 # Directory containing autodock software
 autodock_folder = "/AutoDock-GPU"
 
-# Read compounds
+# Read list of compounds in mol2 format
+curlst = dir()
+mol2files = curlst[grep("\\.mol2$",curlst)]
+
+# Iterate over files and prepare compounds
+for(i in 1:length(mol2files)){
+
+		# Ignore already processed compounds
+        if(file.exists(paste(sub("\\.mol2","",mol2files[i]),".pdbqt",sep=""))){
+         next
+        }
+
+        # Prepare current ligand
+        system(paste('/work/projects/bds_early_pd/AutoDock-GPU/mgltools_x86_64Linux2_1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l', mol2files[i]), timeout=30)
+        
+        # Show current progress every 100 iterations
+        if(i %% 100 == 0)
+            print(i)
+}
+
+# Read list of compounds in pdbqt format
 pdbqtfiles = dir()[grep("\\.pdbqt",dir())]
 
-
-# Iterate over compounds, prepare compounds and run docking simulations
+# Iterate over compounds, prepare input grid files and run docking simulations
 for(i in 1:length(pdbqtfiles)){
 	
 	# Ignore already processed compounds
