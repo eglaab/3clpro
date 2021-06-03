@@ -31,7 +31,14 @@ Molecular docking scripts:
 - Script to extract binding affinity stimation scores from HYDE output files:
 
   [extractHydeScores.py](extractHydeScores.py)
-  
+
+- Script to generate ensembles of conformers for the compound libraries using the software OpenEye OEOmega:
+
+  [openeye_omega.sh](openeye_omega.sh) 
+
+- Script for molecular docking using the software OpenEye HYBRID:
+
+  [openeye_hybrid_docking.sh](openeye_hybrid_docking.sh) 
 
 <br>  
 Molecular dynamics simulations:  
