@@ -27,7 +27,12 @@ Molecular docking scripts:
 
 - Script for molecular docking using the software OpenEye HYBRID:
 
-  [openeye_hybrid_docking.sh](openeye_hybrid_docking.sh) 
+  [openeye_hybrid_docking.sh](openeye_hybrid_docking.sh)
+  
+- Script for molecular docking using the software AutoDock-GPU:
+
+  [autodock_screening.R](autodock_screening.R)
+
 
 <br>
 Machine learning based compound scoring analysis:
