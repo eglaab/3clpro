@@ -29,7 +29,7 @@ Molecular docking scripts:
 
   [openeye_hybrid_docking.sh](openeye_hybrid_docking.sh)
   
-- Script for molecular docking using the software AutoDock-GPU:
+- Script for ligand preparation and molecular docking using the software AutoDock-GPU:
 
   [autodock_screening.R](autodock_screening.R)
 
