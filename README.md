@@ -20,9 +20,18 @@ Settings and pharmacophore files:
 <br>
 Molecular docking scripts:
 
-- Script for molecular docking using LeadIT (FlexX):
+- Script for molecular docking using LeadIT/FlexX (iterating over all compound files in working directory):
 
   [docking_leadit_script.sh](docking_leadit_script.sh)
+  
+- Script for docking and binding affinity estimation using FlexX/HYDE for individual compounds:
+
+  [dock_and_score.sh](dock_and_score.sh)
+  
+- Script to extract binding affinity stimation scores from HYDE output files:
+
+  [extractHydeScores.py](extractHydeScores.py)
+  
 
 <br>  
 Molecular dynamics simulations:  
