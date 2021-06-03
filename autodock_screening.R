@@ -17,7 +17,7 @@ mol2files = curlst[grep("\\.mol2$",curlst)]
 # Iterate over files and prepare compounds
 for(i in 1:length(mol2files)){
 
-		# Ignore already processed compounds
+	# Ignore already processed compounds
         if(file.exists(paste(sub("\\.mol2","",mol2files[i]),".pdbqt",sep=""))){
          next
         }
@@ -38,7 +38,7 @@ for(i in 1:length(pdbqtfiles)){
 	
 	# Ignore already processed compounds
 	if(file.exists(paste(sub(".pdbqt","",pdbqtfiles[i]),"_docking.dlg",sep=""))){
-	 next
+		next
 	}
 
 	# Prepare grid parameter file in input folder
@@ -46,7 +46,7 @@ for(i in 1:length(pdbqtfiles)){
 	system(paste(autodock_folder,'/mgltools_x86_64Linux2_1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_gpf4.py -l ',output_folder,'/',pdbqtfiles[i]," -r ",input_folder,"/receptor.pdbqt",sep=""))
 
 	# Pre-calculate grid maps of interaction energies
-    system(paste(autodock_folder,'/x86_64Linux3/autogrid4 -p ', input_folder, '/receptor.gpf -l ', input_folder, '/receptor.glg',sep=""))
+    	system(paste(autodock_folder,'/x86_64Linux3/autogrid4 -p ', input_folder, '/receptor.gpf -l ', input_folder, '/receptor.glg',sep=""))
 	
 	# Create output in dedicated folder			
 	setwd(output_folder)
