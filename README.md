@@ -7,6 +7,13 @@ Accompanying scripts and parameter setting files for the molecular docking, MD s
 ## Overview of files
 
 <br>
+Software tools:
+
+- List of used software tools and versions for molecular docking, machine learning based compound screening, MD simulations and molecular visualizations:
+
+  [used_software_tools_and_versions.txt](used_software_tools_and_versions.txt)
+
+<br>
 Molecular docking scripts:
 
 - Script for molecular docking and binding affinity estimation using the software LeadIT FlexX/HYDE for individual compounds:
@@ -21,7 +28,7 @@ Molecular docking scripts:
 
   [docking_leadit_script.sh](docking_leadit_script.sh)
   
-- Script to generate ensembles of conformers for the compound libraries using the software OpenEye OEOmega:
+- Script to generate ensembles of conformers for the compound libraries using the software OpenEye OMEGA:
 
   [openeye_omega.sh](openeye_omega.sh) 
 
