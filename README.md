@@ -1,7 +1,7 @@
 # SARS-CoV-2 3CLpro screening and pharmacophore generation
 
 <br>
-Accompanying scripts and parameter setting files for the docking, MD simulations and machine learning analyses, and the pharmacophore model for the manuscript "A Pharmacophore Model for SARS-CoV-2 3CLpro Small Molecule Inhibitors and in Vitro Experimental Validation of Computationally Screened Inhibitors"
+Accompanying scripts and parameter setting files for the molecular docking, MD simulations, machine learning analyses, and the pharmacophore model for the manuscript "A Pharmacophore Model for SARS-CoV-2 3CLpro Small Molecule Inhibitors and in Vitro Experimental Validation of Computationally Screened Inhibitors"
 <br>
 
 ## Overview of files
