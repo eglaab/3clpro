@@ -13,7 +13,7 @@ Software tools, versions and analysis steps:
 
   [used_software_tools_and_versions.txt](used_software_tools_and_versions.txt)
 
-- Descriptions of the analysis steps used for the virtual screening analyses, interlinking them with the used softare tools and the scripts on this GitHub page:
+- Descriptions of the analysis steps used for the virtual screening analyses, interlinking them with the used software tools and the scripts on this GitHub page:
 
   [analysis_steps_software_scripts.txt](analysis_steps_software_scripts.txt)
   
