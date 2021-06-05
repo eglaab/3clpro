@@ -9,9 +9,14 @@ Accompanying scripts and parameter setting files for the molecular docking, MD s
 <br>
 Software tools, versions and analysis steps:
 
-- List of used software tools and versions for molecular docking, machine learning based compound screening, MD simulations and molecular visualizations, including descriptions of the analysis steps interlinking them with the different tools and the scripts on this GitHub page:
+- List of used software tools and versions for molecular docking, machine learning based compound screening, MD simulations and molecular visualizations:
 
-  [software_tools_versions_and_analysis_steps.txt](software_tools_versions_and_analysis_steps.txt)
+  [used_software_tools_and_versions.txt](used_software_tools_and_versions.txt)
+
+- Descriptions of the analysis steps used for the virtual screening analyses, interlinking them with the used softare tools and the scripts on this GitHub page:
+
+  [analysis_steps_software_scripts.txt](analysis_steps_software_scripts.txt)
+  
 
 <br>
 Scripts for molecular docking, binding affinity estimation, and ligand-based similarity screening:
