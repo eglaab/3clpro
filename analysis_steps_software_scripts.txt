@@ -18,10 +18,11 @@ initial 1,276,766,435 substances to 898,838,573 retained substances.
 
 b) SWEETLEAD database:
 All compounds from the SWEETLEAD database (version: 1.0) were downloaded in May 
-2020.
+2020 (https://simtk.org/projects/sweetlead).
 
 c) MolPort database:
-All compounds from the MolPort library were downloaded in May 2020.
+All compounds from the MolPort library were downloaded in May 2020
+(https://www.molport.com/shop/database-download).
 
 d) Ligand pre-processing:
 Ligand preprocessing involved adding hydrogens and generating 3D structures, 
