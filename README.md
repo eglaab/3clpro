@@ -36,6 +36,10 @@ Scripts for molecular docking, binding affinity estimation, and ligand-based sim
 
   [openeye_hybrid_docking.sh](openeye_hybrid_docking.sh)
   
+- Parameter settings for the software OpenEye HYBRID:
+
+  [hybrid_settings.param](hybrid_settings.param)
+  
 - Script for ligand preparation and molecular docking using the software AutoDock-GPU:
 
   [autodock_screening.R](autodock_screening.R)
