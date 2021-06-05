@@ -53,11 +53,15 @@ Machine learning based compound scoring analysis:
   [ml_screening.R](ml_screening.R)
 
 <br>  
-Molecular dynamics simulations:
+Molecular dynamics simulations and molecular visualizations:
 
 - Configuration settings used for MD simulations of ligand-binding interactions in NAMD:
 
   [ligand_binding_simulation.namd](ligand_binding_simulation.namd)
+  
+- Configuration settings used for PoseView 2D visualizations (= default settings):
+
+  [poseview_settings.pxx](poseview_settings.pxx)
   
 - SARS-CoV-2 3CLpro protein in complex with small molecule compound <b>M-8524</b>:
 
