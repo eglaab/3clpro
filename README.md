@@ -55,9 +55,13 @@ Machine learning based compound scoring analysis:
 <br>  
 Molecular dynamics simulations and molecular visualizations:
 
-- Configuration settings used for MD simulations of ligand-binding interactions in NAMD:
+- Configuration settings used for MD simulations of ligand binding interactions in NAMD:
 
   [ligand_binding_simulation.namd](ligand_binding_simulation.namd)
+  
+- Script to run ligand binding MD simulations in NAMD:
+
+  [run_namd_simulation.sh](run_namd_simulation.sh)
   
 - Configuration settings used for PoseView 2D visualizations (= default settings):
 
