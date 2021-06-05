@@ -43,6 +43,10 @@ Scripts for molecular docking, binding affinity estimation, and ligand-based sim
 - Script for ligand-based similarity screening using the FTrees software:
 
   [ftrees_screening.R](ftrees_screening.R)
+  
+- Script used to download filtered compounds from the ZINC database:
+
+  [ZINC-downloader-2D-smi.wget](ZINC-downloader-2D-smi.wget)
 
 
 <br>
